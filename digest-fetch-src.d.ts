@@ -7,6 +7,7 @@ export class DigestClient {
     nonceRaw: string;
     logger: any;
     precomputedHash: any;
+    timeout: any;
     digest: {
         nc: number;
         algorithm: any;
